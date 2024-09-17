@@ -1,0 +1,87 @@
+/* Estilo general del sitio */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Gris claro como fondo general */
+}
+
+/* Estilo del encabezado */
+header {
+    background: #a2c2e9; /* Azul pastel */
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Estilo de la sección principal */
+.section {
+    background: #ffffff; /* Blanco para las secciones */
+    margin: 1rem 0;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de las listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+/* Contenedor central */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Botones CTA */
+.cta {
+    display: inline-block;
+    background: #b4e1a1; /* Verde pastel */
+    color: #333;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 1rem 0.5rem;
+}
+
+.cta:hover {
+    background: #9bd88f; /* Verde más oscuro */
+}
+
+/* Estilo del pie de página */
+footer {
+    background: #f4a261; /* Naranja pastel */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
